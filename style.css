@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2,h1{
+    font-family:cursive;
+}
+
+a{
+    text-decoration: none;
+}
+button>a{
+    color: white;
+}
+
+body{background-image: url(img/bg-hero-desktop.png.svg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* header start */
+body>header{display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+header>header{
+    width: 150px;
+    height: 25px;
+    background-image: url(img/logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+div>a{
+    color: black;
+}
+
+/* nav start */
+header+nav{
+    display: flex;
+    margin-top: 40px;
+}
+nav>nav{ 
+    width: 470px;
+    height: 350px;
+    margin-left: 70px;
+    margin-top: -25px;
+}
+h1{
+    font-size: 35px;
+}
+nav>section{
+    margin-top: -10px;
+   height: 50px;
+    width: 355px;
+}
+nav>button{
+    margin-top: 25px;
+    height: 40px; width: 200px; border-radius: 20px;
+    background-color: #ff8370;
+    border: 0px;
+}
+nav>div{
+    background-image: url(img/illustration-mockups.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 350px;
+    margin-left: 150px;
+}
+
+/* secton start */
+nav+section{
+    display: flex; width: 1130px; height: 300px;
+    background-color: white; margin: 0px auto 0px;
+    border-radius: 30px;
+    box-shadow: 7px 7px 10px grey; 
+}
+section>section{
+    padding-top: 75px;
+    margin-left: 50px;
+    width: 450px;
+    height: 250px;
+}
+section>div{
+    background-image: url(img/illustration-grow-together.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 250px;
+    margin-left: 150px;
+}
+
+/* article start */
+section+article{
+    display: flex; width: 1130px; height: 300px;
+    background-color: white; margin: 50px auto 0px;
+    border-radius: 30px;
+    box-shadow: 7px 7px 10px grey; 
+}
+article>article{
+    background-image: url(img/illustration-flowing-conversation.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 250px;
+}
+article>div{
+    width: 450px;
+    height: 250px;
+    padding-top: 75px;
+    margin-left: 50px;
+}
+
+/* main start */
+article+main{
+    display: flex; width: 1130px; height: 300px;
+    background-color: white; margin: 50px auto 0px;
+    border-radius: 30px;
+    box-shadow: 7px 7px 10px grey; 
+}
+main>main{
+    width: 450px;
+    height: 350px;
+    padding-top: 75px;
+    margin-left: 50px;
+}
+main>div{
+    background-image: url(img/illustration-your-users.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 250px;
+    margin-left: 150px;
+}
+
+/* div start */
+div.down{
+    position: relative;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    width: 350px; height: 100px;
+    background-color: white; margin: 50px auto 0px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 7px 7px 10px grey; 
+}
+h4~button{
+    height: 40px; width: 150px; border-radius: 20px;
+    background-color: #ff8370; border-color: whitesmoke;
+}
+
+/* nav down start */
+div+nav{
+    /* z-index: -1;
+    position: relative; */
+    margin-top: -50px;
+    display: flex; 
+    height: 270px;
+    background-color: #404040;
+}
+nav>header{
+    justify-content: left;
+    width: 600px;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+header>article{
+    display: flex;
+    gap: 20px;
+    width: 500px;
+    height: 40px;
+    color: white;
+}
+header>main{
+    background:none; height: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    box-shadow: none;
+    gap: 20px;
+}
+nav>article{
+    margin-top: 120px;
+}
+article>nav{
+    display: flex;    
+}
+li{
+    color: white;
+    list-style-type: none;
+}
+ul{
+    width: 100px;
+    margin-left: 25px;
+}
+article main{
+    width: 90px;
+    margin-top: 20px;
+    margin-left: 50px;
+    color: white;
+    padding-right: 100px;
+}
+nav~header{
+    color: white;
+    margin-top: 15px;
+    margin-right: 100px;
+    float: right;
+    justify-content: baseline;
+}
